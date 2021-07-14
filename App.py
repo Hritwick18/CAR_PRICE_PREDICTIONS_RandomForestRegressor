@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 import pandas as pd
 st.set_option('deprecation.showfileUploaderEncoding', False)
-# Load the pickled model
+
 model = pickle.load(open('/content/drive/My Drive/car_prediction.pkl', 'rb'))
 
 def predict_price(Present_Price,Kms_Driven,Owner,Years_old,Fuel_Type_Diesel,Fuel_Type_Petrol,Seller_Type_Individual,Transmission_Manual):
