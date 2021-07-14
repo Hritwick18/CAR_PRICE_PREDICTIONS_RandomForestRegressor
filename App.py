@@ -43,7 +43,7 @@ def main():
     Seller_Type_Individual=1
 
   Transmission_Manual = st.text_input("Transmission(Manual/Automatic)")
-  if Transmission_Manual=="Manual":)
+  if Transmission_Manual=="Manual":
     Transmission_Manual=1
   else:
     Transmission_Manual=0
